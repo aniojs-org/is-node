@@ -1,6 +1,6 @@
 {
   "name": "@anio-js-foundation/is-node",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Check whether we're running in a browser or node.",
   "main": "./dist/package.mjs",
   "author": "Anio Software <info@anio.software>",
