@@ -1,13 +1,17 @@
 {
   "name": "@anio-js-foundation/is-node",
   "version": "2.0.0",
-  "description": "Check whether we're running in a browser or node.",
-  "main": "./dist/package.mjs",
   "author": "Anio Software <info@anio.software>",
+  "description": "Check whether we're running in a browser or node.",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anio-js-foundation/is-node.git"
+  },
+  "devDependencies": {
+    "@fourtune/core": "^0.1101.0",
+    "@fourtune/realm-js": "^0.31000.2",
+    "fourtune": "^0.30000.0"
   },
   "scripts": {
     "prepare": "./node_modules/.bin/npm-package-bundler ."
@@ -15,9 +19,5 @@
   "files": [
     "./dist/package.mjs"
   ],
-  "devDependencies": {
-    "@fourtune/core": "^0.1101.0",
-    "@fourtune/realm-js": "^0.31000.2",
-    "fourtune": "^0.30000.0"
-  }
+  "main": "./dist/package.mjs"
 }
