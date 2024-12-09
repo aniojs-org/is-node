@@ -1,4 +1,10 @@
-export default function isNode() {
+import {useContext, type RuntimeWrappedContextInstance} from "@fourtune/realm-js/runtime"
+
+export function implementation(
+	wrapped_context: RuntimeWrappedContextInstance
+) {
+	const context = useContext(wrapped_context, 0)
+
 	if (typeof window !== "undefined") {
 		return false
 	}
