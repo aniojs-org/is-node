@@ -1,5 +1,5 @@
 {
-  "name": "@anio-js-foundation/is-node",
+  "name": "@aniojs/is-node",
   "version": "0.0.0",
   "author": "Anio Software <info@anio.software>",
   "description": "Check whether we're running in a browser or node.",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anio-js-foundation/is-node.git"
+    "url": "git+https://github.com/aniojs-org/is-node.git"
   },
   "type": "module",
   "devDependencies": {
