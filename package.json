@@ -30,6 +30,6 @@
     "node": ">=22.7.x"
   },
   "files": [
-    "./dist/package.mjs"
+    "./dist/"
   ]
 }
