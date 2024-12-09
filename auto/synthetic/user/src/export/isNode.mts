@@ -4,6 +4,6 @@ import {isNodeFactory as factory} from "#~synthetic/user/export/isNodeFactory.mt
 
 const fn = factory(createContext())
 
-export function isNode() : any {
+export function isNode() : boolean {
 	return fn()
 }

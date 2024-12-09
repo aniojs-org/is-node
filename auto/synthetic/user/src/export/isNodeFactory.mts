@@ -4,7 +4,7 @@ import {getProject} from "@fourtune/realm-js/v0/project"
 
 declare function isNode(
 
-) : any
+) : boolean
 
 /**
  * @brief
@@ -30,7 +30,7 @@ export function isNodeFactory(context: RuntimeWrappedContextInstance) : typeof i
 		}
 	}
 
-	return function isNode() : any {
+	return function isNode() : boolean {
 		return implementation(local_context)
 	}
 }
