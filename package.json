@@ -14,7 +14,7 @@
     "fourtune": "^0.30000.0"
   },
   "scripts": {
-    "prepare": "./node_modules/.bin/npm-package-bundler ."
+    "prepare": "./node_modules/.bin/fourtune ."
   },
   "files": [
     "./dist/package.mjs"
